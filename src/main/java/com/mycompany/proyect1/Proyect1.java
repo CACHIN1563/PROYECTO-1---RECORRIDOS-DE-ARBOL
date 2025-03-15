@@ -38,7 +38,7 @@
 
             NODO raiz = arbol.ArbolPostfija(EPOSTFIJA);
 
-          // RECORRIDOS DE CADA ARBOL
+                 // RECORRIDOS DE CADA ARBOL
             
             StringBuilder recorridos = new StringBuilder();
             recorridos.append
@@ -92,6 +92,7 @@
             }
             return true;
         }
+     
 
         private static void imprimirArbol(NODO nodo, int nivel) {
             if (nodo == null) return;
