@@ -7,7 +7,7 @@
     /**
      * 
      *
-     * @author cachi
+     * @author cachi, GarHer
      */
     //GARHER ES NUESTRA VARIABLE PARA CONVERTIR
     //"\n" SALTO DE LINEA
@@ -39,6 +39,7 @@
             NODO raiz = arbol.ArbolPostfija(EPOSTFIJA);
 
           // RECORRIDOS DE CADA ARBOL
+            
             StringBuilder recorridos = new StringBuilder();
             recorridos.append
             ("RECORRIDO INORDEN:\n");
@@ -105,6 +106,7 @@
             System.out.println
             (nodo.dato);
 
+            
             imprimirArbol
             (nodo.nodoizquierdo, nivel + 1);
         }
