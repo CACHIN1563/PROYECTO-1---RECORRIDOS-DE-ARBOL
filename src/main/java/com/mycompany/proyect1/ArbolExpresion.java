@@ -7,9 +7,10 @@
     import java.util.List;
     import java.util.Stack;
     /**
-     *   
-     * @author cachi
+     *
+     * @author cachi, GarHer1399
      */
+
     public class ArbolExpresion {
         public NODO ArbolPostfija(String[] expresionPostfija) {
         Stack<NODO> pila = new Stack<>();
